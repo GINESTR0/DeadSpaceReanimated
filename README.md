@@ -1,27 +1,25 @@
 # Dead Space Reanimated
 
-> **Disclaimer.** Dead Space and all of its content belong to Electronic Arts. This is a non-commercial fan project, made out of love for the game.
-> The original mobile game was pulled from every store years ago: today it cannot be bought anywhere, it is not available online except in internet archives, and it no longer installs on modern phones. For this reason the complete APK is published here directly.
-> If this release bothers the rights holders, it will be removed right away and replaced by a mod: a patch for the original game files, usable only by those who own them. Feel free to [contact me](https://github.com/GINESTR0/DeadSpaceReanimated/issues).
+> **Disclaimer.** Dead Space and all of its content belong to Electronic Arts. This is a non-commercial fan project, made out of love for the title.
+> The original mobile game was pulled from every store years ago and it is not available online except in internet archives. No longer works on modern phones. For this reason the complete APK is published here directly.
+> If this release bothers anyone, it can be removed right away and replaced by a simple mod for the original game files. Feel free to [contact me](https://github.com/GINESTR0/DeadSpaceReanimated/issues).
 
-**The complete remaster of Dead Space (Sabotage), the 2011 mobile game, rebuilt to run on today's 64-bit Android phones.**
+**The complete remastered of Dead Space Sabotage, the 2011 mobile game, rebuilt to run on today's 64-bit Android phones.**
 **REMASTERED BY GINESTRO**
 
-In 2011 Dead Space came to phones as a full chapter of the saga, set between Dead Space and Dead Space 2. Then it disappeared: removed from the stores, built only for 32-bit devices, impossible to install on any phone sold in recent years.
+Dead Space Reanimated brings it back with native resolution on any screen, HD textures, 60 fps, sound and controls rebuilt for today's phones (mine a Fold8 works magestically), and the bugs of the original binary fixed.
 
-Dead Space Reanimated brings it back as it never was: native resolution on any screen, HD textures, 60 fps, sound and controls rebuilt for today's phones, and the bugs of the original binary fixed. It is the only way to play it on a modern phone, in one APK, with nothing else to download.
-
-[**Download the latest release**](https://github.com/GINESTR0/DeadSpaceReanimated/releases/latest)
+[**Download here the latest release**](https://github.com/GINESTR0/DeadSpaceReanimated/releases/latest)
 
 ![Main menu](screenshots/01_menu.png)
 
 ![Plasma cutter against a slasher](screenshots/03_combat.png)
 
-## At a glance
+## WHAT IS "REMASTERED"
 
-- **Built for any 64-bit Android phone** from Android 8.0 onward, with the HD textures loaded in the format each GPU accepts (Snapdragon, Exynos, Tensor, MediaTek).
+- **Built for 64-bit Android phone** from Android 8.0 onward, with the upscaled HD textures loaded in the format each GPU accepts (Snapdragon, Exynos, Tensor, MediaTek).
 - **Native resolution, 4x antialiasing, 16x anisotropic filtering, 60 fps** with even frame pacing on high refresh rate screens.
-- **HD remaster of every texture**: environments and characters at 2x, interface, HUD and logos at 4x. Crisp subtitles and menus.
+- **HD remastered of every texture**: environments and characters at 2x, interface, HUD and logos at 4x. Crisp subtitles and menus.
 - **Rebuilt sound**: more effects at the same time, complete reload sounds in step with the animation.
 - **Touch controls tuned for today's screens**, free look, motion controls working as in 2011.
 - **Foldables supported**: open or close the phone mid-game and the picture keeps its proportions.
@@ -32,7 +30,7 @@ Dead Space Reanimated brings it back as it never was: native resolution on any s
 
 ## What was done to remaster it
 
-### A new home for a 2011 engine
+### New 2011 engine
 - The original game engine runs unmodified inside a custom runtime that translates its 32-bit ARM code to 64-bit on the fly. The game logic, levels and story are exactly the 2011 ones.
 - Everything the old engine expected from a 2011 phone is provided by the runtime: graphics, sound, touch, motion sensor, storage and lifecycle on current Android versions.
 - The original 32-bit-only package can no longer be installed; this one is a native 64-bit app aligned for the latest Android memory requirements.
@@ -61,7 +59,7 @@ Dead Space Reanimated brings it back as it never was: native resolution on any s
 - Motion sensor wired up: the plasma cutter beam rotates when you tilt the phone while aiming, as in 2011.
 - The Back button is handled by the game instead of closing it. Fullscreen immersive mode.
 
-### Fixes to the original game
+### Fixes to the original game ports
 - Dismemberment: severed limbs could turn into giant polygons stretched across the screen, a defect of the original binary that modern GPUs made visible. Fixed.
 - Reload sounds cut short and effects dropped when several played at once. Fixed.
 
@@ -86,18 +84,13 @@ Dead Space Reanimated brings it back as it never was: native resolution on any s
 
 ![Slasher in the corridor](screenshots/04_slasher.png)
 
-## Tips
-
-- Hold the phone in your hands while playing: some moves use the motion sensor, exactly as in 2011. The plasma cutter beam is rotated by tilting the phone sideways while aiming, and the game shows you when.
-- Lying flat on a table, the sensor sees the phone as tilted, so keep it upright for those moments.
-
 ## Saves
 
 Saves live in `Android/data/com.deadspace.reanimated/files/appdata/var/` and are removed if you uninstall the app. They are included in Android's automatic backup, so with a Google account backup they come back after a reinstall or on a new phone.
 
 ## Contact
 
-Problems, ideas, or a phone where the game does not run well? [Open an issue](https://github.com/GINESTR0/DeadSpaceReanimated/issues).
+Problems, ideas, or a phone where the game does not run well -> [Open an issue](https://github.com/GINESTR0/DeadSpaceReanimated/issues).
 
 ---
 

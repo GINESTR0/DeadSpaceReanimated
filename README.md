@@ -79,7 +79,7 @@ Dead Space Reanimated brings it back with native resolution on any screen, HD te
 
 ## Install
 
-1. Download `DeadSpaceReanimated-1.2.apk` from the [latest release](https://github.com/GINESTR0/DeadSpaceReanimated/releases/latest) on the phone, or copy it there. That file is all you need: the "Source code" files GitHub adds to every release contain only this page.
+1. Download `DeadSpaceReanimated-1.3.apk` from the [latest release](https://github.com/GINESTR0/DeadSpaceReanimated/releases/latest) on the phone, or copy it there. That file is all you need: the "Source code" files GitHub adds to every release contain only this page.
 2. Open it. Android will ask you to allow installs from this source.
 3. Launch "Dead Space Reanimated". The first launch unpacks the game files, then the game starts.
 4. Play. Headphones recommended.

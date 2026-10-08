@@ -1,5 +1,7 @@
 # Dead Space Reanimated
 
+[**Download here the latest release**](https://github.com/GINESTR0/DeadSpaceReanimated/releases/latest)
+
 > **Disclaimer.** Dead Space and all of its content belong to Electronic Arts. This is a non-commercial fan project, made out of love for the title.
 > The original mobile game was pulled from every store years ago and it is not available online except in internet archives. No longer works on modern phones. For this reason the complete APK is published here directly.
 > If this release bothers anyone, it can be removed right away and replaced by a simple mod for the original game files. Feel free to [contact me](https://github.com/GINESTR0/DeadSpaceReanimated/issues).
